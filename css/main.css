@@ -169,7 +169,7 @@ text-decoration: none;
 #main {
   background-color: #FFFFFF;
   width: 1000px;
-  height: 425px;
+  height: 430px;
   margin-left: 175px;
   margin-right: 10px;
 }
@@ -225,7 +225,7 @@ text-decoration: none;
 }
 
 .footer1 {
-  margin-left: 250px;
+  margin-left: 240px;
   color: #FFFFFF;
   font-family: Arial Narrow;
   font-size: 20px;
@@ -490,5 +490,3 @@ text-decoration: none;
 		margin-left: 45px;
 	}
 }	
-
-
