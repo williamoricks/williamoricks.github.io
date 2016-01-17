@@ -60,15 +60,15 @@ a.hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
- 	font-family: Arial, Helvetica, sans-serif;
+ 	font-family: Arial Narrow;
 	font-weight: normal;
 	line-height: 100%;
 	margin-top: 0;	
 }
 
 h1 {
-	font-size: 18px;
-	color: #000;
+	font-size: 26px;
+	color: #800000;
     font-weight: bold;
 }
 
@@ -92,66 +92,30 @@ h4 {
 
 /*Main CSS  */
 
-#container {
-  width: 1000px;
-  background: white;
-  margin: 2em auto;
-}
-
 body {
-  background-color: #FFFFFF;
-}
-
-#header {
-  background: white;
-  width: 1000px;
-  margin-left: 175px;
-  margin-right: 75px;
-  padding-bottom: 5px;
-  overflow: hidden;
-  height: 100%;
-}
-
-#header img {
-  float: left;
-  margin-right: 10px;
-  margin-left: 50px;
-  margin-top: 15px;
-}
-
-#header ul#social {
-  float: right;
-  margin-right: 12px;
-  position: relative;
-  margin-top: 20px;
-}
-
-#social li {
-  margin-right: 65px;
-  display: inline;
+  background-color: #556B2F;
 }
 
 #nav {
-  background-color: #800000;
-  height: 70px;
-  width: 1000px;
-  margin-left: 170px;
-  margin-bottom: 5px;
+  background-color: #556B2F;
+  height: 20px;
+  width: 100%;
+  margin-top: 15px;
   padding-top: 15px;
-  padding-bottom: 5px;
+  margin-bottom: 100px;
 }
 
 #nav li {
-  font-family: Arial Narrow;
-  margin-left: 125px;
-  font-size: 24px;
-  font-weight: bold;
+  font-family: Book Antiqua;
+  margin-left: 178px;
+  font-size: 28px;
+  font-weight: normal;
   display: inline;
-  padding: 1px;
+  padding: 15px;
 }
 
 #nav li a {
-  color: white;
+  color: #f2f2f2;
 }
 
 #nav li a:hover {
@@ -159,95 +123,79 @@ text-decoration: none;
 }
 
 #featured {
-  width: 900px;
+  width: 1000px;
+  margin-bottom: 30px;
 }
 
 #featured img.featuredimage {
-  margin-left: 370px;
+  margin-left: 400px;
+  border-radius: 10px 10px;
 }
 
 #main {
-  background-color: #FFFFFF;
+  background-color: #556B2F;
   width: 1000px;
-  height: 510px;
+  height: 350px;
   margin-left: 175px;
   margin-right: 10px;
+  margin-bottom: 30px;
 }
 
 #message {
-  width: 750px;
-  margin-left: 120px;
-  margin-top: 10px;
+  width: 1000px;
+  margin-left: 100px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .message1 {
+	font-family: "Times New Roman";
 	text-align: left;
 	font-weight: bold;
-	font-size: 22px;
-	font-family: Arial Narrow;
+	font-size: 44px;
+	margin-left: 0px;
+	color: #FFFFFF;
+}
+
+.message2 {
+	font-family: "Times New Roman";
+	text-align: left;
+	font-weight: normal;
+	font-size: 26px;
+	margin-left: 170px;
+	color: #f2f2f2;
+}
+
+#examples {
+	width: 1000px;
+	margin-left: 190px;
+	margin-bottom: 30px;
 }
 
 #col1, #col2, #col3, #col4 {
   display: inline-block;
-  margin-top: 15px;
   width: 200px;
 }
 
 #col1 {
-  margin-left: -50px;
-  padding-right: 75px;
+  margin-left: 50px;
+  padding-right: 10px;
 }
 
 #col2 h2 {
 }
 
 #col3 {
-  padding-left: 80px;
+  padding-left: 10px;
 }
 
 #col4 {
-  padding-left: 75px;
+  padding-left: 10px;
 }
 
 #col3 h2 {
   float: left;
   margin-left: 130px;
-}
-
-#infoquote {
-  padding-top: 30px;
-  background-color: #383838;
-  font-family: Arial, Helvetica, sans-serif; 
-  font-weight: bold;
-  padding-bottom: 13px;
-  width: 100%;
-  height: 50px;
-  clear: both;
-}
-  
-.infoquote {
-  margin-left: 320px;
-  color: #FFFFFF;
-  font-family: Arial Narrow;
-  font-size: 36px;
-}
-
-#footer {
-  padding-top: 30px;
-  background-color: #800000;
-  font-family: Arial, Helvetica, sans-serif; 
-  font-weight: bold;
-  width: 100%;
-  height: 50px;
-  clear: both;
-}
-
-.footer1 {
-  margin-left: 370px;
-  color: #FFFFFF;
-  font-family: Arial Narrow;
-  font-size: 22px;
 }
 
 @media screen and (max-width:979px) {
