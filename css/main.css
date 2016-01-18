@@ -178,19 +178,19 @@ text-decoration: none;
 }
 
 #col1 {
-  margin-left: 50px;
-  padding-right: 10px;
+  margin-left: 30px;
+  padding-right: 15px;
 }
 
 #col2 h2 {
 }
 
 #col3 {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 #col4 {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 #col3 h2 {
@@ -457,5 +457,8 @@ text-decoration: none;
 		margin-left: 45px;
 	}
 }	
+
+
+	
 
 
