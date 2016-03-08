@@ -68,8 +68,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 26px;
-	color: #800000;
+	color: #FFFFFF;
     font-weight: bold;
+	font-family: "Times New Roman";
 }
 
 h2 {
@@ -107,7 +108,7 @@ body {
 
 #nav li {
   font-family: Book Antiqua;
-  margin-left: 178px;
+  margin-left: 330px;
   font-size: 28px;
   font-weight: normal;
   display: inline;
@@ -129,6 +130,11 @@ text-decoration: none;
 
 #featured img.featuredimage {
   margin-left: 400px;
+  border-radius: 10px 10px;
+}
+
+#featured img.featuredimage2 {
+  margin-left: 550px;
   border-radius: 10px 10px;
 }
 
@@ -162,7 +168,7 @@ text-decoration: none;
 	text-align: left;
 	font-weight: normal;
 	font-size: 26px;
-	margin-left: 180px;
+	margin-left: 52px;
 	color: #f2f2f2;
 }
 
@@ -196,6 +202,23 @@ text-decoration: none;
 #col3 h2 {
   float: left;
   margin-left: 130px;
+}
+
+#about {
+  width: 800px;
+  height: 450px;
+  margin-left: 275px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about1 {
+	text-align: left;
+	Color: #FFFFFF;
+	font-weight: normal;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "Times New Roman";
 }
 
 @media screen and (max-width:979px) {
@@ -457,6 +480,9 @@ text-decoration: none;
 		margin-left: 45px;
 	}
 }	
+
+
+	
 
 
 	
