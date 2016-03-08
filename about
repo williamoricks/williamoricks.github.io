@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About Me/Contact Info</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+<link rel="shortcut icon" href="images/cartoon2.jpe" />
+</head>
+
+<ul id="nav">
+    <li><a href="index.html" target ="_blank">Home</a></li> 
+    <li><a href="#" target ="_blank">About/Contact</a></li> 	
+</ul> <!--end nav-->
+
+<div id="featured">
+    <img src="images/cartoon2.jpe" width="145" height="170" alt="Avatar" class="featuredimage2" />
+</div> <!--end featured2-->
+
+<div id="about">
+	<span class="about1">
+	<h1>About/Contact</h1>
+	<br>My name is William. I have been designing, developing & maintaining websites for 13 years. I have provided web solutions for a number of non-profits (churches & other charities). I have also monitored & maintained the social media presence for a number of businesses. 
+
+<br><br>My technical skills include HTML, CSS, Wordpress Development, Adobe Photoshop & Dreamweaver with experience in JavaScript, PHP, SEO, web hosting & responsive web design. I also have an employment history that includes support in all levels & possess excellent written as well as verbal communication.
+
+<br><br>Feel free contact me via the contact information contained in my resume. I would love to hear from you. Thank you for your consideration!
+
+<br><br>William  
+
+    </span>	
+</div> <!--end about-->  
+
+</body>
+</html>
